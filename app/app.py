@@ -35,8 +35,5 @@ app.config.from_object(Configuration)
 #     print('  ----  Conection Error!')
 #     print('---------------------------------------------------------')
 
-####--------------------------------------------------------------------------
-####--------------------------------------------------------------------------
-
 expiration = 300 #1800 #900s=15min // 600s=10min // 300s=5min
 ts = URLSafeTimedSerializer(app.config["SECRET_KEY"], expiration)
