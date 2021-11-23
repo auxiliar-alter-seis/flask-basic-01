@@ -1,5 +1,6 @@
 # flask-basic-01
-Estructura básica de un proyecto en Flask
+
+## Estructura básica de un proyecto en Flask
 
 
 Después de clonar el proyecto se debe crear la carpeta para instalar el entorno virtual
